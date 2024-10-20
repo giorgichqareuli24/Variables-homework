@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         double celsius = 30.0;
-        double fahrenheit = (celsius * 9/5) + 32;
+        double fahrenheit = (celsius * 1.8) + 32;
         System.out.println("ტემპერატურა ფარენჰეიტში: " + fahrenheit);
 
 
         double fahrenheitt = 65.0;
-        double celsiuss = (fahrenheitt - 32) * 5/9;
+        double celsiuss = (fahrenheitt - 32) * 1.8;
         System.out.println("ტემპერატურა ცელსიუსებში: " + celsiuss);
 
 
